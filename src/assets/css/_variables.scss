@@ -1,0 +1,79 @@
+// @use "typography" as typ;
+// @use "functions" as func;
+
+
+
+// Theme colors from Nova style.css
+$color-primary: #1d4ed8;
+$color-primary-hover: #1e40af;
+$color-primary-light: #e5ecff;
+
+$color-tertiary: #2a9d8f;
+$color-tertiary-hover: #1a7e72;
+$color-tertiary-light: #e5f6f4;
+
+$color-secondary: #e77c2b;
+$color-secondary-hover: #c9651f;
+$color-secondary-light: #f9e7d3;
+
+$color-body-bg: #ffffff;
+$color-body-text: #3a3c48;
+$color-heading: #0f172a;
+$color-inverse: #475569;
+
+$color-white: #ffffff;
+$color-black: #000000;
+
+$color-border: rgba(73, 75, 91, 0.2);
+$color-border-light: rgba(73, 75, 91, 0.1);
+$color-muted-bg: rgba(73, 75, 91, 0.02);
+$color-soft-primary-bg: rgba(33, 92, 92, 0.1);
+$color-soft-secondary-bg: rgba(204, 232, 201, 0.2);
+
+// RGB tokens, useful for rgba()
+$primary-rgb: 33, 92, 92;
+$primary-hover-rgb: 20, 75, 75;
+$secondary-rgb: 204, 232, 201;
+$inverse-rgb: 73, 75, 91;
+
+// Typography
+$font-family-base: "Inter", sans-serif;
+
+$font-size-xs: 0.75rem;     // 12px
+$font-size-sm: 0.875rem;    // 14px
+$font-size-base: 1rem;      // 16px
+$font-size-md: 1.125rem;    // 18px
+$font-size-lg: 1.25rem;     // 20px
+$font-size-xl: 1.5rem;      // 24px
+$font-size-2xl: 1.875rem;   // 30px
+$font-size-3xl: 2.5rem;     // 40px
+$font-size-4xl: 3rem;       // 48px
+
+$line-height-base: 1.7;
+$line-height-heading: 1.2;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Layout
+$container-max-width: 1140px;
+$section-padding-y: 70px;
+$section-padding-y-mobile: 40px;
+$section-scroll-margin-top: 60px;
+
+// Radius
+$radius-sm: 7px;
+$radius-md: 10px;
+$radius-lg: 20px;
+$radius-xl: 1.5rem;
+
+// Shadows
+$shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.05);
+$shadow-md: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+$shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.05);
+
+// Transitions
+$transition-base: 0.3s all ease-in-out;
+$transition-fast: 0.25s all ease-in-out;

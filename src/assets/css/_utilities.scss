@@ -1,0 +1,50 @@
+@use 'members' as *;
+
+//  Card, Color, Text, font-weight, brand
+// For common css classes which can be use throught everywhere
+
+// .flex-row-center {
+//   &-0 {
+//     @include flex-row-center($pad-sm);
+//   }
+//   &-1 {
+//     @include flex-row-center($pad-xl);
+//   }
+//   &-2 {
+//     @include flex-row-center($gap-xs);
+//   }
+//   &-3 {
+//     @include flex-row-center($gap-sm);
+//   }
+//   &-4 {
+//     @include flex-row-center($gap-md);
+//   }
+//   &-5 {
+//     @include flex-row-center($gap-lg);
+//   }
+// }
+
+// .flex-col {
+//   &-0 {
+//     @include flex-col($pad-sm);
+//   }
+//   &-1 {
+//     @include flex-col($pad-xl);
+//   }
+//   &-2 {
+//     @include flex-col($gap-xs);
+//   }
+//   &-3 {
+//     @include flex-col($gap-sm);
+//   }
+//   &-4 {
+//     @include flex-col($gap-md);
+//   }
+//   &-5 {
+//     @include flex-col($gap-lg);
+//   }
+//   &-6 {
+//     @include flex-col($gap-xl);
+//   }
+// }
+

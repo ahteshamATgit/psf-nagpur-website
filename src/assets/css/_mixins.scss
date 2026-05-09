@@ -1,0 +1,52 @@
+@use 'variables' as var;
+@use  'typography' as typ;   
+
+
+
+// Flex realted mixins
+@mixin flex-row-center($gap) {
+   display: flex;
+   align-items: center;
+   gap: $gap;
+}
+
+@mixin flex-col($gap) {
+  display: flex;
+  flex-direction: column;    
+  // align-items: start;
+  gap: $gap;
+}
+
+
+// Breakpoint mixin for screen size: small (sm)
+@mixin media-breakpoint-down-sm {  
+  @media (max-width: 576px) {
+    @content;
+  }
+}
+
+// Breakpoint mixin for screen size: medium (md)
+@mixin media-breakpoint-down-md {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+@mixin media-breakpoint-up-md {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+// Breakpoint mixin for screen size: large (lg)
+@mixin media-breakpoint-down-lg {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+
+// Breakpoint mixin for screen size: extra large (xl)
+@mixin media-breakpoint-down-xl {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}

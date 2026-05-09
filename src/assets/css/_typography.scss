@@ -1,0 +1,81 @@
+@use 'functions' as func;
+
+@use "./variables" as *;
+
+
+.text-body-custom {
+  color: $color-body-text !important;
+}
+
+.text-heading-custom {
+  color: $color-heading !important;
+}
+
+.text-primary-custom {
+  color: $color-primary;
+}
+
+.text-secondary-custom {
+  color: $color-secondary;
+}
+
+.font-base {
+  font-family: $font-family-base;
+}
+
+.font-xs {
+  font-size: $font-size-xs;
+}
+
+.font-sm {
+  font-size: $font-size-sm;
+}
+
+.font-md {
+  font-size: $font-size-md;
+}
+
+.font-lg {
+  font-size: $font-size-lg;
+}
+
+.font-xl {
+  font-size: $font-size-xl;
+}
+
+.font-semibold {
+  font-weight: $font-weight-semibold;
+}
+
+.font-bold {
+  font-weight: $font-weight-bold;
+}
+
+.section-title {
+  color: $color-heading;
+  font-size: $font-size-3xl;
+  line-height: $line-height-heading;
+  font-weight: $font-weight-bold;
+
+  @media (max-width: 991.98px) {
+    font-size: $font-size-2xl;
+  }
+}
+
+.section-subtitle {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: $radius-sm;
+  background-color: $color-soft-secondary-bg;
+  color: $color-primary;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-semibold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.section-description {
+  color: $color-body-text;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+}

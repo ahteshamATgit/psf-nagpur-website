@@ -1,0 +1,79 @@
+@use 'members' as *;
+// For avatars, badges, progressbar, block ui
+// chips, tags, inplace, progress spninner, Loader
+
+.primary {
+  color: $color-primary !important;
+}
+.bg-primary {
+  background-color: $color-primary !important;
+}
+.bg-primary-light {
+  background-color: $color-primary-light !important;
+}
+.bg-primary-lightest {
+  background-color: #f1f5ff !important;
+}
+
+.secondary {
+  color: $color-secondary !important;
+}
+.bg-secondary {
+  background-color: $color-secondary !important;
+}
+.bg-secondary-light {
+  background-color: $color-secondary-light !important;
+}
+
+.tertiary {
+  color: $color-tertiary !important;
+}
+.bg-tertiary {
+  background-color: $color-tertiary !important;
+}
+.bg-tertiary-light {
+  background-color: $color-tertiary-light !important;
+}
+
+
+.text-dark {
+  color: $color-body-text !important;
+}
+
+.text-light {
+  color: $color-white !important;
+}
+
+// .badge-sm {
+//   border-radius: 4px;
+//   padding: 0.25em 0.5rem;
+//   letter-spacing: 0.3px;
+//   &-success {
+//     background: #c8e6c9;
+//     color: #256029;
+//   }
+//   &-warn {
+//     background: #feedaf;
+//     color: #8a5340;
+//   }
+//   &-danger {
+//     background: #ffcdd2;
+//     color: #c63737;
+//   }
+//   &-primary {
+//     background: #d2f4f5;
+//     color: var(--primary-600);
+//   }
+//   &-info {
+//     background: #eccfff;
+//     color: #694382;
+//   }
+//   &-tertiary {
+//     background: #d7d7d7;
+//     color: #131313;
+//   }
+//   &-light {
+//     background: #fff;
+//     color: #131313;
+//   }
+// }
