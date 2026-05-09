@@ -65,7 +65,7 @@ onMounted(async () => {
       <div class="row justify-content-between mb-5 g-xl-5">
         <div class="col-md-4 mb-5 mb-lg-0">
           <RouterLink class="d-inline-block mb-3" to="/" aria-label="PSF Nagpur home">
-            <img class="img-fluid" src="/assets/images/logo-dark.svg" alt="PSF Nagpur logo" style="max-width: 130px" />
+            <img class="img-fluid" src="/assets/images/psf.png" alt="PSF Nagpur logo" style="max-width: 200px; border-radius: 12px;" />
           </RouterLink>
 
           <h3 class="mb-3">Professionals Solidarity Forum Nagpur</h3>

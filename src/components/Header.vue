@@ -10,8 +10,8 @@ const whatsappLink = 'https://chat.whatsapp.com/your-invite-link'
 
 const mainLinks = [
   // { label: 'Home', to: '/', match: ['landing'] },
-  { label: 'About', to: '/about', match: ['about'] },
-  { label: 'Events', to: '/events', match: ['events', 'event-details'] },
+  { label: 'About Us', to: '/about', match: ['about'] },
+  { label: 'Events & Activities', to: '/events', match: ['events', 'event-details'] },
   {
     label: 'Social Initiatives',
     to: '/initiatives',
@@ -73,7 +73,7 @@ onBeforeUnmount(() => {
     <div class="container d-flex align-items-center justify-content-between">
       <!-- Start Logo -->
       <RouterLink class="navbar-brand w-auto" to="/" aria-label="PSF Nagpur home" @click="closeOffcanvas">
-        <img class="logo dark img-fluid" src="/assets/images/logo-dark.svg" alt="PSF Nagpur logo" />
+        <img class="logo dark img-fluid" src="/assets/images/psf.png" alt="PSF Nagpur logo" />
 
         <img class="logo light img-fluid" src="/assets/images/logo-light.svg" alt="PSF Nagpur logo" />
       </RouterLink>
@@ -86,7 +86,7 @@ onBeforeUnmount(() => {
           <div class="offcanvas-header-logo">
             <RouterLink class="logo-link" id="fbs__net-navbarsLabel" to="/" aria-label="PSF Nagpur home"
               @click="closeOffcanvas">
-              <img class="logo dark img-fluid" src="/assets/images/logo-dark.svg" alt="PSF Nagpur logo" />
+              <img class="logo dark img-fluid" src="/assets/images/psf.png" alt="PSF Nagpur logo" />
 
               <img class="logo light img-fluid" src="/assets/images/logo-light.svg" alt="PSF Nagpur logo" />
             </RouterLink>
@@ -139,3 +139,20 @@ onBeforeUnmount(() => {
   </header>
   <!-- End Header -->
 </template>
+
+<style lang="scss">
+header {
+  .logo {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 721px) {
+  header {
+    .logo {
+      max-width: 118px;
+    }
+  }
+
+}
+</style>
